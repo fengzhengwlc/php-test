@@ -1,0 +1,5 @@
+2016-07-16 13:05:32,115 - mylogger - INFO - --Do GET request to https://pan.y7tech.com/ucdisk/api/2.0/user/login with parameter(s) {'userName': 'test', 'passWord': '123123', 'clientKey': '0'}
+2016-07-16 13:06:40,819 - mylogger - INFO - --Do GET request to https://pan.y7tech.com/ucdisk/api/2.0/user/login with parameter(s) {'userNames': 'test', 'passWord': '123123', 'clientKey': '0'}
+2016-07-16 13:06:40,819 - mylogger - ERROR - -Status_code is 400, URL: https://pan.y7tech.com/ucdisk/api/2.0/user/login, Parameters: {'userNames': 'test', 'passWord': '123123', 'clientKey': '0'}
+2016-07-16 13:07:22,443 - mylogger - INFO - Do GET request to https://pan.y7tech.com/ucdisk/api/2.0/user/login with parameter(s) {'userNames': 'test', 'passWord': '123123', 'clientKey': '0'}
+2016-07-16 13:07:22,443 - mylogger - ERROR - Status_code is 400, URL: https://pan.y7tech.com/ucdisk/api/2.0/user/login, Parameters: {'userNames': 'test', 'passWord': '123123', 'clientKey': '0'}
