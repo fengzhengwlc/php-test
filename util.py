@@ -24,13 +24,3 @@ def getresponse(url, requesparameters, method="POST"):
     except Exception, e:
         logger.error("Error caught: %s, URL: %s" % (e, url))
 
-
-url = "https://pan.y7tech.com/ucdisk/api/2.0/user/login"
-parameter = {"userNames": "test", "passWord": "123123", "clientKey": "0"}
-
-r = getresponse(url, parameter, "GET")
-
-if r is not None:
-    print r
-else:
-    print "-Request failed"
